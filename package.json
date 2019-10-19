@@ -1,0 +1,11 @@
+{
+  "name": "put-it-on-the-board-frontend",
+  "version": "1.0.0",
+  "description": "Front end for \"Put It On The Board\" app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shawn Tennity",
+  "license": "MIT"
+}
