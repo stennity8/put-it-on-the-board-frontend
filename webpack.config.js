@@ -3,10 +3,10 @@ const path = require('path');
 module.exports = {
   mode: 'development',
   entry: {
-    app: './src/app.js'
+    app: ['@babel/polyfill', './src/index.js']
   },
   output: {
-    path: path.resolve(__dirname, 'build'),
+    path: path.resolve(__dirname, 'dist'),
     filename: 'app.bundle.js'
   },
   module: {
