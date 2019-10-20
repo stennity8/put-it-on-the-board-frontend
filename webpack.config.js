@@ -1,6 +1,7 @@
 const path = require('path');
 
 module.exports = {
+  mode: 'development',
   entry: {
     app: './src/app.js'
   },
@@ -9,12 +10,12 @@ module.exports = {
     filename: 'app.bundle.js'
   },
   module: {
-    loaders: [{
+    rules: [{
       test: /\.js?$/,
       exclude: /node_modules/,
       loader: 'babel-loader',
       query: {
-        presets: ['env']
+        presets: ['@babel/preset-env']
       }
     }]
   }
