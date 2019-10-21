@@ -1,3 +1,3 @@
 import { sayHello } from './lib'
 
-console.log(sayHello('Shawn'));
+// console.log(sayHello('Shawn'));
